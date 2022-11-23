@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+    div.imagem > nav > ul > li > a{
+        color: white;
+        display: flex;
+    }
+    div.imagem{
+        background: linear-gradient(black , black);
+        background-repeat: no-repeat;
+        background-image: url('../imagens/novo-fundo.jpg');
+        background-size: cover;
+        background-position: left bottom;
+        width: 100%;
+        height: 100vh;
+    }
+    nav > ul{
+        display: flex;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav > ul > li > a{
+        margin-left: 20px;
+        padding: 10px;
+    }
+}

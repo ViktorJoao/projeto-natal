@@ -22,6 +22,7 @@ div.imagem{
     background-position: left bottom;
     width: 100%;
     height: 100%;
+    padding-bottom: 30px;
 }
     
 div.imagem > h2{
@@ -33,9 +34,21 @@ div.imagem > h2{
   
 }
 div.menu-itens{
-    display: block;
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
     
+    
+}
+nav#itens{
+    display: none;
+}
+span#menu{
+    padding-top: 25px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+span#menu:hover{
+    color: rgb(88, 87, 87);
 }
 div.menu-itens > nav#itens > ul > li > a{
     color: white;
@@ -45,6 +58,7 @@ div.menu-itens > nav#itens > ul > li{
 }
 div.menu-itens > h2{
     color: white;
+    padding: 20px 0px 0px 20px;
 }
 span{
     color: rgb(5, 163, 5);
@@ -72,9 +86,23 @@ img{
     width: 40px;
     padding-top: 10px;
     cursor: pointer;
+    
 }
 img:hover{
     transform: translateY(-3px);
 }
-
+footer{
+    background-color: rgb(14, 13, 13);
+    color: rgb(230, 218, 218);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer > div.roda-pe{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.4em;
+}
+div.elementos{
+    padding: 20px;
+}
 

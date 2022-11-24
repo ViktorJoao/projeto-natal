@@ -11,15 +11,14 @@
 
 
 </head>
-<body>
+<body onresize="mudoTamanho()">
     <div class="imagem">
         <div class="menu-itens">
             <h2>Portifo<span>lio</span></h2>
+            <span id="menu" class="material-symbols-outlined" onclick="clickMenu()">
+                menu
+                </span>
             <nav id="itens">
-               
-                <span id="menu" class="material-symbols-outlined">
-                    menu
-                    </span>
                 <ul>
                     <li><a href="#">Contato</a></li>
                     <li><a href="#">Suporte</a></li>
@@ -39,5 +38,63 @@
         </div>
     </div>
     </div>
+    <footer>
+        <div class="roda-pe">
+            <div class="elementos">
+                <ul>
+                    <li>About Dwell</li>
+                    <li>Advertise on Dwell</li>
+                    <li>Contact Dwell</li>
+                    <li>Explore Dwell</li>
+                    <li>Submit Dwell</li>
+                    <li>Privacy & Terns</li>
+                </ul>
+            </div>
+            <div class="elementos">
+                <ul>
+                    <li>Subscibe to Dwell</li>
+                    <li>Git Subscripitions</li>
+                    <li>Order Back lssues</li>
+                    <li>Subscripitions Help</li>
+                </ul>
+            </div>
+            <div class="elementos">
+                <ul>
+                    <li>About Dwell</li>
+                    <li>Advertise on Dwell</li>
+                    <li>Contact Dwell</li>
+                    <li>Explore Dwell</li>
+                    <li>Submit Dwell</li>
+                    <li>Privacy & Terns</li>
+                </ul>
+            </div>
+            <div class="elementos">
+                <ul>
+                    <li>About Dwell</li>
+                    <li>Advertise on Dwell</li>
+                    <li>Contact Dwell</li>
+                    <li>Explore Dwell</li>
+                    <li>Submit Dwell</li>
+                    <li>Privacy & Terns</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+        function mudouTamanho(){
+            if (widndow.innerwidth >= 768){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+    </script>
 </body>
 </html>

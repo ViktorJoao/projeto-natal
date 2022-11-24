@@ -14,6 +14,17 @@
         width: 100%;
         height: 100vh;
     }
+    div.menu-itens{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    nav#itens{
+        display: block;
+    }
+    span#menu{
+        display: none;
+    }
     nav > ul{
         display: flex;
         align-items: center;
@@ -26,5 +37,9 @@
     nav > ul > li > a{
         margin-left: 20px;
         padding: 10px;
+    }
+    footer > div.roda-pe{
+        display: flex;
+        justify-content: space-around;
     }
 }
